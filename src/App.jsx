@@ -5,12 +5,12 @@ function App() {
       <div id="game-container">
         <ol id="players">
           <Player
-            name="Player 1"
+            initialName="Player 1"
             symbol="X"
             handelEdit={() => handelEditClick(true)}
           />
           <Player
-            name="Player 2"
+            initialName="Player 2"
             symbol="O"
             handelEdit={() => handelEditClick(true)}
           />

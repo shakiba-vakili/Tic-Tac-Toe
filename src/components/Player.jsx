@@ -1,21 +1,32 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const Player = ({ name, symbol, handelEditClick }) => {
+const Player = ({ initialName, symbol, handelEditClick }) => {
+  const [playerName, setPlayerName] = useState(initialName);
   const [isEditing, setIsEditing] = useState(false);
+
   function handelEditClick() {
-    setIsEditing(true);
+    // If you want to update your state based on the previous state, you should pass a function.
+    // This ensures the state is updated correctly and immediately.
+    setIsEditing((editing) => !editing);
   }
-  let playerName = <span className="player-name">{name}</span>;
+  function handelChange(event) {
+    setPlayerName(event.target.value);
+  }
+  let editablePlayerName = <span className="player-name">{playerName}</span>;
+
   if (isEditing) {
-    playerName = <input type="text" required />;
+    editablePlayerName = (
+      <input type="text" required value={playerName} onChange={handelChange} />
+    );
   }
+
   return (
     <li>
       <span className="player">
-        {playerName}
+        {editablePlayerName}
         <span className="player-symbol">{symbol}</span>
       </span>
-      <button onClick={handelEditClick}>edit</button>
+      <button onClick={handelEditClick}>{isEditing ? "Save" : "Edit"}</button>
     </li>
   );
 };
