@@ -1,3 +1,4 @@
+import GameBoard from "./components/GameBoard.jsx";
 import Player from "./components/Player.jsx";
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             handelEdit={() => handelEditClick(true)}
           />
         </ol>{" "}
-        board
+        <GameBoard />
       </div>
       log
     </main>
