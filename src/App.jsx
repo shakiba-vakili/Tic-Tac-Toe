@@ -42,10 +42,7 @@ function App() {
             handelEdit={() => handelEditClick(true)}
           />
         </ol>{" "}
-        <GameBoard
-          onSelectSquare={handelSelectSquare}
-          activePlayerSymbol={activePlayer}
-        />
+        <GameBoard onSelectSquare={handelSelectSquare} turns={gameTurns} />
       </div>
       <Log />
     </main>
