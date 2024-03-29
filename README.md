@@ -1,6 +1,8 @@
-# Tic-Tac-Toe Game
+# Tic-Tac-Toe Game 🎮✨
 
 This is a simple Tic-Tac-Toe game built with React and CSS, allowing players to enjoy the classic game with the following features:
+
+<img src="demo.png" alt="demo" title="Tic-Tac-Toe"  />
 
 - **Editable Player Names:** Players can edit their names directly within the game interface and save them for a personalized gaming experience.
 - **Winning Logic:** The game includes logic to detect when a player achieves a winning combination of symbols (three in a row horizontally, vertically, or diagonally).
@@ -29,5 +31,11 @@ To run the project locally, follow these steps:
 3. Install dependencies using `npm install`.
 4. Start the development server using `npm start`.
 5. Access the game in your web browser at `http://localhost:3000`.
+
+## links
+
+- linkedin - [Shakiba Sadat Vakili](https://www.linkedin.com/in/shakiba-vakili/)
+- GitHub - [@shakiba-vakili](https://github.com/shakiba-vakili)
+- Frontend Mentor - [@shakiba-vakili](https://www.frontendmentor.io/profile/shakiba-vakili)
 
 Enjoy playing Tic-Tac-Toe! 🎮✨
