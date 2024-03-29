@@ -6,7 +6,7 @@ This is a simple Tic-Tac-Toe game built with React and CSS, allowing players to 
 - **Winning Logic:** The game includes logic to detect when a player achieves a winning combination of symbols (three in a row horizontally, vertically, or diagonally).
 - **Draw Detection:** In case no player achieves a winning combination and the game board is full, the game recognizes it as a draw.
 - **Rematch Button:** After the game ends (either by a win or draw), players have the option to initiate a rematch and restart the game.
-- 
+  
 <img src="./public/demo.png" alt="demo" title="Tic-Tac-Toe"  />
 
 ## How to Play
