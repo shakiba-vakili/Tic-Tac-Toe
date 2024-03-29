@@ -2,7 +2,6 @@
 
 This is a simple Tic-Tac-Toe game built with React and CSS, allowing players to enjoy the classic game with the following features:
 
-See [demo](https://shakiba-vakili.github.io/rock-paper-scissor/)
 <img src="demo.png" alt="demo" title="Tic-Tac-Toe"  />
 
 - **Editable Player Names:** Players can edit their names directly within the game interface and save them for a personalized gaming experience.
