@@ -2,13 +2,12 @@
 
 This is a simple Tic-Tac-Toe game built with React and CSS, allowing players to enjoy the classic game with the following features:
 
-<img src="./public/demo.png" alt="demo" title="Tic-Tac-Toe"  />
-<img src="./public/demo2.png" alt="demo" title="Tic-Tac-Toe"  />
-
 - **Editable Player Names:** Players can edit their names directly within the game interface and save them for a personalized gaming experience.
 - **Winning Logic:** The game includes logic to detect when a player achieves a winning combination of symbols (three in a row horizontally, vertically, or diagonally).
 - **Draw Detection:** In case no player achieves a winning combination and the game board is full, the game recognizes it as a draw.
 - **Rematch Button:** After the game ends (either by a win or draw), players have the option to initiate a rematch and restart the game.
+- 
+<img src="./public/demo.png" alt="demo" title="Tic-Tac-Toe"  />
 
 ## How to Play
 
@@ -17,6 +16,8 @@ This is a simple Tic-Tac-Toe game built with React and CSS, allowing players to 
 3. **Winning Condition:** The game detects winning combinations automatically. The player who achieves three symbols in a row, column, or diagonal wins.
 4. **Draw Detection:** If all squares are filled without any player achieving a winning combination, the game results in a draw.
 5. **Rematch:** After the game ends, players can click the "Rematch" button to start a new game with the same player names.
+
+<img src="./public/demo2.png" alt="demo" title="Tic-Tac-Toe"  />
 
 ## Technologies Used
 
