@@ -38,6 +38,5 @@ To run the project locally, follow these steps:
 
 - linkedin - [Shakiba Sadat Vakili](https://www.linkedin.com/in/shakiba-vakili/)
 - GitHub - [@shakiba-vakili](https://github.com/shakiba-vakili)
-- Frontend Mentor - [@shakiba-vakili](https://www.frontendmentor.io/profile/shakiba-vakili)
 
 Enjoy playing Tic-Tac-Toe! 🎮✨
