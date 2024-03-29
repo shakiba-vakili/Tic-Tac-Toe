@@ -2,7 +2,8 @@
 
 This is a simple Tic-Tac-Toe game built with React and CSS, allowing players to enjoy the classic game with the following features:
 
-<img src="demo.png" alt="demo" title="Tic-Tac-Toe"  />
+<img src="./public/demo.png" alt="demo" title="Tic-Tac-Toe"  />
+<img src="./public/demo2.png" alt="demo" title="Tic-Tac-Toe"  />
 
 - **Editable Player Names:** Players can edit their names directly within the game interface and save them for a personalized gaming experience.
 - **Winning Logic:** The game includes logic to detect when a player achieves a winning combination of symbols (three in a row horizontally, vertically, or diagonally).
